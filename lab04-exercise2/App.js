@@ -35,13 +35,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
+    justifyContent: 'center'
   },
   buttonContainer: {
     flexDirection: 'row',
   },
   button: {
     height: 50,
-    padding: 24,
+    padding: 12,
     margin: 12,
     alignItems: 'center',
     justifyContent: 'center',
@@ -50,7 +51,7 @@ const styles = StyleSheet.create({
   },
   buttonDanger: {
     height: 50,
-    padding: 24,
+    padding: 12,
     margin: 12,
     alignItems: 'center',
     justifyContent: 'center',
