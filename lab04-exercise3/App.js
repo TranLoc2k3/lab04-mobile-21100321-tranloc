@@ -57,7 +57,7 @@ export default function App() {
             <TouchableOpacity
               style={styles.quantityProductButton}
               onPress={decresingQuantity}>
-              -
+                <Text>-</Text>
             </TouchableOpacity>
             <View
               style={{
@@ -74,7 +74,7 @@ export default function App() {
             <TouchableOpacity
               style={styles.quantityProductButton}
               onPress={increasingQuantity}>
-              +
+                <Text>+</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -107,7 +107,6 @@ export default function App() {
             backgroundColor: '#2186c4',
           }}>
           <Text style={{ color: '#ffffff', fontWeight: 'bold', margin: 12 }}>
-            {' '}
             Áp dụng
           </Text>
         </TouchableOpacity>
@@ -145,7 +144,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'space-around',
     padding: 8,
   },
   productContainer: {
